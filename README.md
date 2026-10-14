@@ -1,14 +1,13 @@
-# Stapleton Joinery — Measure & Quote V3.1
+# Stapleton Joinery — Measure & Quote V3.2
 
-## Upload to GitHub Pages
-Back up your jobs first in V3. Replace the root `index.html` in `nickymc87/stapleton-joinery-v2` with this `index.html`, commit, and refresh the published Safari URL with `?v=31`. Do not upload the ZIP itself to the repository.
+Upload `index.html` to the root of your existing `stapleton-joinery-v2` repository, replacing the prior `index.html`. Keep a JSON job backup before updating.
 
-## V3.1 additions
-- Provisional itemised frame, sash and glazing bar member lengths in the drawing screen.
-- Export provisional component schedule across all windows in a job as CSV.
-- Export and import demo costing rates as simple CSV columns `key,rate`.
-- Printable workshop document includes provisional stock member lengths.
-- Retains the V3 local-storage keys, so previously saved V3 jobs remain compatible in the same browser and origin.
+## Added
+- Door item button within jobs, six selectable door concepts: four-panel, part-glazed, modern flush, double, stable, modern glazed.
+- Preliminary diagram, component schedule, demo costs and workshop/CSV outputs for doors.
+- Windows and doors together on one job.
 
-## Safety
-All quantities and costs are illustrative. Member lengths are *not* cutting lengths and do not account for joint allowances, rebates, glazing bites or build details. Do not use for manufacture, ordering glass or issuing live customer quotes. Stored locally in the browser; back up before upgrading.
+## Important
+Provisional only, not approved dimensions or manufacturing cut list. Door component estimates deliberately simplify frames, blank construction, ironmongery, machining, glazing and tolerances. This is not a fire-door certification or regulatory compliance checker.
+
+Existing V3/V3.1 `stapleton_v3_jobs` local storage key is retained. Job data stays on the device/browser; no synchronisation, Xero or login. Rates are demo values. Test with a backup and no real customer data.
