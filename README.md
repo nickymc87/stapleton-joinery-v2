@@ -1,13 +1,13 @@
-# Stapleton Joinery — Measure & Quote V3.2
+# Stapleton Joinery — V3.3 Workshop Drawing Edition
 
-Upload `index.html` to the root of your existing `stapleton-joinery-v2` repository, replacing the prior `index.html`. Keep a JSON job backup before updating.
+Upload `index.html` to the root of the existing GitHub Pages repository, replacing the previous file. Export a backup of existing jobs first.
 
-## Added
-- Door item button within jobs, six selectable door concepts: four-panel, part-glazed, modern flush, double, stable, modern glazed.
-- Preliminary diagram, component schedule, demo costs and workshop/CSV outputs for doors.
-- Windows and doors together on one job.
+## What changed
+- New monochrome technical front elevations for all existing window and door variants.
+- Overall dimension annotations and member/profile face labels.
+- Print-ready one-sheet-per-item workshop reviews with provisional component schedule, notes, dated revision P01 and title block.
+- Same local storage keys and existing job data format as V3.2.
+- Existing costing, quotes and demo rates remain in the app.
 
 ## Important
-Provisional only, not approved dimensions or manufacturing cut list. Door component estimates deliberately simplify frames, blank construction, ironmongery, machining, glazing and tolerances. This is not a fire-door certification or regulatory compliance checker.
-
-Existing V3/V3.1 `stapleton_v3_jobs` local storage key is retained. Job data stays on the device/browser; no synchronisation, Xero or login. Rates are demo values. Test with a backup and no real customer data.
+Drawings are **preliminary reference diagrams, not manufacturing drawings**. Component lengths are nominal and require workshop verification. SVG is visually diagrammatic, not scale-accurate in print. Do not use for glass ordering, cutting or fabrication. The print button uses iPhone Safari's system print/share flow.
